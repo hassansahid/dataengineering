@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<parametros>
+    <bot>
+        <nombre>Bot CoderHouse Data Engineering</nombre>
+        <estado>True</estado>
+        <hilos>10</hilos>
+        <autor>
+            <nombre>Sahid Hassan</nombre>
+            <correo>ashassan.sh@gmail.com</correo>
+        </autor>
+    </bot>
+    <conexiones>
+        <datos_origen>
+            <url>https://api.nasa.gov/neo/rest/v1/feed?start_date=START_DATE&amp;end_date=END_DATE&amp;api_key=API_KEY</url>
+            <key>tuapikey</key>
+        </datos_origen>
+        <datos_destino>
+            <host></host>
+            <port></port>
+            <database></database>
+            <user></user>
+            <password></password>
+            <schema></schema>
+        </datos_destino>
+    </conexiones>
+</parametros>
